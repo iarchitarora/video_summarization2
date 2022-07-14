@@ -6,6 +6,7 @@ import h5py
 from prettytable import PrettyTable
 
 import tensorflow as tf
+from tensorflow.keras import backend as K
 from tensorflow.keras.layers import LSTM, Bidirectional, Dense, TimeDistributed, Concatenate, Lambda
 from tensorflow.keras import Input, Model
 
